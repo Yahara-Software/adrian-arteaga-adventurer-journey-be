@@ -1,0 +1,15 @@
+C:\Users\artea\Documents\PersonalCode\Yahara\Adventurer\bin\Debug\net7.0\Adventurer.exe
+C:\Users\artea\Documents\PersonalCode\Yahara\Adventurer\bin\Debug\net7.0\Adventurer.deps.json
+C:\Users\artea\Documents\PersonalCode\Yahara\Adventurer\bin\Debug\net7.0\Adventurer.runtimeconfig.json
+C:\Users\artea\Documents\PersonalCode\Yahara\Adventurer\bin\Debug\net7.0\Adventurer.dll
+C:\Users\artea\Documents\PersonalCode\Yahara\Adventurer\bin\Debug\net7.0\Adventurer.pdb
+C:\Users\artea\Documents\PersonalCode\Yahara\Adventurer\obj\Debug\net7.0\Adventurer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\artea\Documents\PersonalCode\Yahara\Adventurer\obj\Debug\net7.0\Adventurer.AssemblyInfoInputs.cache
+C:\Users\artea\Documents\PersonalCode\Yahara\Adventurer\obj\Debug\net7.0\Adventurer.AssemblyInfo.cs
+C:\Users\artea\Documents\PersonalCode\Yahara\Adventurer\obj\Debug\net7.0\Adventurer.csproj.CoreCompileInputs.cache
+C:\Users\artea\Documents\PersonalCode\Yahara\Adventurer\obj\Debug\net7.0\Adventurer.sourcelink.json
+C:\Users\artea\Documents\PersonalCode\Yahara\Adventurer\obj\Debug\net7.0\Adventurer.dll
+C:\Users\artea\Documents\PersonalCode\Yahara\Adventurer\obj\Debug\net7.0\refint\Adventurer.dll
+C:\Users\artea\Documents\PersonalCode\Yahara\Adventurer\obj\Debug\net7.0\Adventurer.pdb
+C:\Users\artea\Documents\PersonalCode\Yahara\Adventurer\obj\Debug\net7.0\Adventurer.genruntimeconfig.cache
+C:\Users\artea\Documents\PersonalCode\Yahara\Adventurer\obj\Debug\net7.0\ref\Adventurer.dll
