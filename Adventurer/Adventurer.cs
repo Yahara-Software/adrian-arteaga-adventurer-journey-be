@@ -2,12 +2,14 @@
 {
     public class Adventurer
     {
-        public int[] position;
+        public int xPos;
+        public int yPos;
 
         // Constructor using a 2D array as position of Adventurer
         public Adventurer()
         {
-            position = new int[] { 0, 0 };
+            xPos = 0;
+            yPos = 0;
         }
 
         // Update position of Adventurer based on input
@@ -25,45 +27,40 @@
                 }
 
                 // Typecast stepVal to int
-                /**
-                 Error: typecast is not parsing the string to int
-                 */
-                int totalSteps = int.Parse(stepVal);
+                int numSteps = int.Parse(stepVal);
 
-                // Get direction input
-                if (double.TryParse(input[i].ToString(), out double num))
+                if (i < input.Length)
                 {
-                    // Move in the x direction
-                    if (input[i] == 'R')
+                    char direction = input[i];
+                    i++;
+
+                    // Get direction and move
+                    switch (direction)
                     {
-                        position[0] += totalSteps;
-                    }
-                    else if (input[i] == 'L')
-                    {
-                        position[0] -= totalSteps;
+                        case 'F':
+                            yPos += numSteps;
+                            break;
+                        case 'B':
+                            yPos -= numSteps;
+                            break;
+                        case 'L':
+                            xPos -= numSteps;
+                            break;
+                        case 'R':
+                            xPos += numSteps;
+                            break;
+                        default:
+                            Console.WriteLine("The direction given is not valid. Last given instruction skipped.");
+                            break;
                     }
                 }
-                else
-                {
-                    // Move in the y direction
-                    if (input[i] == 'F')
-                    {
-                        position[1] += totalSteps;
-                    }
-                    else if (input[i] == 'B')
-                    {
-                        position[1] -= totalSteps;
-                    }
-                }   
             }
         }
 
         // Get Euclidean distance from start to end
-        public double getEuclidean()
+        public static double getEuclidean(Adventurer adventurer)
         {
-            int dx = 0 - this.position[0];
-            int dy = 0 - this.position[1];
-            return Math.Sqrt(dx * dx + dy * dy);
+            return Math.Sqrt(adventurer.xPos * adventurer.xPos + adventurer.yPos * adventurer.yPos);
         }
     }
 }
